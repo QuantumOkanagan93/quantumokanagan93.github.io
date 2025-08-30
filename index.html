@@ -4,70 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Micheal Egan Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Micheal Egan - Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <div class="typing-container">
-                <h1 id="typing-text"></h1>
-                <span class="cursor">|</span>
-            </div>
-        </header>
-        
-        <div class="profile_image">
-            <img src="Images/Portrait.jpg" class="profile-img">
+        <div class="header-container" id="headerContainer">
+            <h1>Micheal Egan</h1>
+            <p class="tagline">Web Developer & Programmer</p>
         </div>
-        <br>
-        <p id="description">
-            Born and raised in the Okanagan Valley, I'm a web developer with an eye for detail and
-            always love a challenge when creating/developing
-        </p>
-        <div class="link-containers">
-            <div class="about-section">
-                <div class="about-trigger" id="aboutTrigger">
-                    About Me
-                </div>
-                <a href="projects.html" class="projects-link">View Projects</a>
-            </div>
-            <div class="modal-overlay" id="modalOverlay">
-                <div class="modal">
-                    <div class="close-btn" id="closeBtn">X</div>
-                    <div class="modal-content">
-                        <h2>About Micheal Egan</h2>
-                        <p>Hello World!, I'm Micheal Egan, a passionate web developer and programmer.
-                            Born and raised in the Okanagan Valley, I draw inspiration from the natural beauty that
-                            surrounds me
-                            and the people I'm around.
-                        </p>
-                        <p>
-                            2 years of professional web development experience using HTML/CSS and Vanilla JavaScript. I
-                            love creating responsive, user-friendly solutions
-                            for everyday problems. From the smallest most common issues, to unique and one of a kind
-                            issues. I'll curate it to not only look great, but perform
-                            exceptionally well.
-                        </p>
 
-                        <p>
-                            When not coding, you can find me exploring what Kelowna has to offer: walking the downtown
-                            area, taking in the sunshine, and going for drives around this beautiful city.
-                        </p>
-
-                        <h3>Skills</h3>
-                        <div class="skills">
-                            <span class="skill">HTML 5</span>
-                            <span class="skill">CSS3</span>
-                            <span class="skill">Vanilla JavaScript</span>
-                        </div>
-                        <footer>
-                            <p>&copy; 2025 Micheal Egan. All Rights Reserved.</p>
-                        </footer>
-                    </div>
+        <div class="link-menus" id="links">
+            <a class="link-selection">About Me</a>
+            <a class="link-selection">Projects</a>
+            <a class="link-selection">Contact Me</a>
+        </div>
+        <div class="main-section" id="main">
+            <img src="Images/Portrait.jpg" alt="Profile Picture" class="profile-img">
+            <p>
+                Hello! I'm Micheal Egan, a passionate web developer with expertise in creating responsive and
+                user-friendly websites.
+                I specialize in front-end development and have experience with various technologies including HTML, CSS,
+                JavaScript, and I'm constantly learning new technologies.
+            </p>
+            <div class="skills-container">
+                <span class="skills-label">Soft Skills:</span>
+                <div class="skills">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">Vanilla JavaScript</span>
+                    <span class="skill">Mathematics</span>
+                    <span class="skill">Database Management</span>
                 </div>
             </div>
         </div>
+        <footer>
+            <p>&copy; 2025 - Micheal Egan. All Rights Reserved</p>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
