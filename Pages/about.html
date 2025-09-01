@@ -1,0 +1,155 @@
+<!-- Contact Form -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/about.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-menu">
+            <a href="../index.html">Home</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="#">Projects</a>
+        </nav>
+
+        <header class="about-header">
+            <h1>About Me</h1>
+            <p>Learn more about my background, skills and passions</p>
+        </header>
+
+        <main class="about-content">
+            <div class="modal-sections">
+                <!-- Section 1: Education & Background-->
+                <div class="section-card" data-modal="modal1">
+                    <div class="section-icon"></div>
+                    <h3>Education & Backgrounmd</h3>
+                    <p>Learn about my academic journey and professional background</p>
+                    <div class="hover-hint">Click to learn more</div>
+                </div>
+                <!--Section 2: Skills and Technologies-->
+                <div class="section-card" data-modal="modal2">
+                    <div class="section-icon"></div>
+                    <h3>Skills & Technologies</h3>
+                    <p>Discover the tools and technologies I've worked with</p>
+                    <div class="hover-hint">Click to learn more</div>
+                </div>
+                <!--Section 3: Goals & Aspirations-->
+                <div class="section-card" data-modal="modal3">
+                    <div class="section-icon"></div>
+                    <h3>Goals & Aspirations</h3>
+                    <p>See where I'm heading and what I hope to achieve</p>
+                    <div class="hover-hint">Click to learn more</div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--Modal 1: Education & Background-->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Education & Background</h2>
+            <div class="modal-body">
+                <p>
+                    Taken the Computer Information Systems diploma at Okanagan College in Kelowna British Columba. I
+                    developed a liking to web development
+                    and while doing the courses COSC 213 - Web Dev with LAMP, COSC 219 - Client-Side Web Systems. 213
+                    focus was mainly server side.
+                </p>
+                <h3>Education</h3>
+                <ul>
+                    <li>Diploma in Computer Information Systems, Okanagan College (2019 - 2022)</li>
+                </ul>
+                <h3>Professional Background</h3>
+                <p>
+                    Applied and got a job right out of college with BC Tree Fruits Cooperative as a Junior Programmer
+                    Analyst. Promoted to a Programmer Analyst just a year after that.
+                    Collaborated with many staff members, not just my direct colleagues. Created user requested
+                    applications using a proprietary language, worked with database tables
+                    and documentation along the way to instruct staff members how to use the newly designed or new
+                    altogether products.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 2: Skills and Technologies-->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Skills & Technologies</h2>
+            <div class="modal-body">
+                <p>
+                    I specialize in front-end development with a focus on creating responsive, accessible and performant
+                    web applications.
+                </p>
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Front End</h4>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases & Mathematics</h4>
+                        <ul>
+                            <li>SQL & Database Design</li>
+                            <li>Advanced Mathematics</li>
+                            <li>Cryptography</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools</h4>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Goals & Aspirations</h2>
+            <div class="modal-body">
+                <p>
+                    I'm constantly learning and growing as a developer, with clear goals for my future career path.
+                </p>
+                <h3>Short-Term Goals</h3>
+                <ul>
+                    <li>Learn and master React JavaScript to make fully functional and aesthetically pleasing applications for users</li>
+                    <li>Contribute to open source projects</li>
+                    <li>Learn MongoDB and other Database systems to further my understanding</li>
+                </ul>
+
+                <h3>Long-Term Aspirations</h3>
+                <ul>
+                    <li>Work as a senior front-end developer at an innovative company</li>
+                    <li>Mentor junior developers and share my knowledge with them</li>
+                    <li>Build life long project that will help people who have loved ones suffering from illnesses (can discuss more if asked upon)</li>
+                    <li>Eventually lead dev teams on impactful projects</li>
+                </ul>
+
+                <h3>Current Focus</h3>
+                <p>
+                    Right now, I'm diving deeper into JavaScript frameworks and learning back-end technologies to become a more well-rounded developer.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="../Scripts/about.js"></script>
+</body>
+
+</html>
